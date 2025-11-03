@@ -1,0 +1,19 @@
+2025-11-03 14:59:25,228 - __main__ - ERROR - Missing required environment variables: GEMINI_API_KEY, CHROMA_DB_PATH, DATA_DIR
+2025-11-03 15:00:30,961 - src.vector.chroma_store - INFO - ChromaDB initialized at ./data/chromadb
+2025-11-03 15:00:30,962 - src.llm.gemini_client - INFO - Gemini client initialized
+2025-11-03 15:00:31,155 - src.llm.gemini_client - ERROR - Gemini health check failed: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-03 15:04:08,674 - src.vector.chroma_store - INFO - ChromaDB initialized at ./data/chromadb
+2025-11-03 15:04:08,674 - src.llm.gemini_client - INFO - Gemini client initialized
+2025-11-03 15:05:03,844 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in
+2025-11-03 15:05:04,295 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/
+2025-11-03 15:05:04,774 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in#Pilot-Training
+2025-11-03 15:05:05,034 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/pages/pilot-training-flying-school-usa
+2025-11-03 15:05:05,668 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/pages/pilot-training-flying-school-canada
+2025-11-03 15:05:06,145 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/pages/pilot-training-flying-school-New-zealand
+2025-11-03 15:05:06,616 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/pages/pilot-training-flying-school-india
+2025-11-03 15:05:07,076 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/pages/pilot-training-flying-school-southafrica
+2025-11-03 15:05:07,577 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/pages/pilot-training-flying-school-australia
+2025-11-03 15:05:07,991 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/pages/pilot-training-flying-school-sri-lanka
+2025-11-03 15:05:08,413 - src.data.website_scraper - INFO - Finished scraping 10 pages
+2025-11-03 15:05:10,827 - httpx - INFO - HTTP Request: GET https://chroma-onnx-models.s3.amazonaws.com/all-MiniLM-L6-v2/onnx.tar.gz "HTTP/1.1 200 OK"
+2025-11-03 15:06:07,887 - src.vector.chroma_store - INFO - Added 13 documents to ChromaDB
