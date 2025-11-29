@@ -17,3 +17,60 @@
 2025-11-03 15:05:08,413 - src.data.website_scraper - INFO - Finished scraping 10 pages
 2025-11-03 15:05:10,827 - httpx - INFO - HTTP Request: GET https://chroma-onnx-models.s3.amazonaws.com/all-MiniLM-L6-v2/onnx.tar.gz "HTTP/1.1 200 OK"
 2025-11-03 15:06:07,887 - src.vector.chroma_store - INFO - Added 13 documents to ChromaDB
+2025-11-10 10:22:59,377 - src.vector.chroma_store - INFO - ChromaDB initialized at ./data/chromadb
+2025-11-10 10:22:59,378 - src.llm.gemini_client - INFO - Gemini client initialized
+2025-11-10 10:32:00,436 - src.data.whatsapp_importer - INFO - Importing WhatsApp chat from /Users/uzam/Downloads/WhatsApp Chat with +91 93216 48330.txt
+2025-11-10 10:32:00,456 - src.data.whatsapp_importer - INFO - Imported 141 messages from WhatsApp chat
+2025-11-10 10:32:04,283 - src.vector.chroma_store - INFO - Added 141 documents to ChromaDB
+2025-11-10 11:20:38,596 - src.vector.chroma_store - INFO - ChromaDB initialized at ./data/chromadb
+2025-11-10 11:20:38,596 - src.llm.gemini_client - INFO - Gemini client initialized
+2025-11-17 09:41:42,259 - src.vector.chroma_store - INFO - ChromaDB initialized at ./data/chromadb
+2025-11-17 09:41:42,259 - src.llm.gemini_client - INFO - Gemini client initialized
+2025-11-17 09:41:51,225 - src.data.website_scraper - INFO - Scraping URL: techquanta.in
+2025-11-17 09:41:51,227 - src.data.website_scraper - ERROR - Error processing page techquanta.in: Invalid URL 'techquanta.in': No scheme supplied. Perhaps you meant https://techquanta.in?
+2025-11-17 09:41:51,227 - src.data.website_scraper - INFO - Finished scraping 1 pages
+2025-11-17 09:42:00,507 - src.data.website_scraper - INFO - Scraping URL: thepilot.in
+2025-11-17 09:42:00,509 - src.data.website_scraper - ERROR - Error processing page thepilot.in: Invalid URL 'thepilot.in': No scheme supplied. Perhaps you meant https://thepilot.in?
+2025-11-17 09:42:00,509 - src.data.website_scraper - INFO - Finished scraping 1 pages
+2025-11-17 09:42:11,296 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in
+2025-11-17 09:42:18,072 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/
+2025-11-17 09:42:29,847 - src.data.website_scraper - ERROR - Error processing page https://thepilot.in/: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-11-17 09:42:29,848 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in#Pilot-Training
+2025-11-17 09:42:47,032 - src.data.website_scraper - ERROR - Error processing page https://thepilot.in#Pilot-Training: HTTPSConnectionPool(host='thepilot.in', port=443): Read timed out. (read timeout=10)
+2025-11-17 09:42:47,033 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/pages/pilot-training-flying-school-usa
+2025-11-17 09:43:07,041 - src.data.website_scraper - ERROR - Error processing page https://thepilot.in/pages/pilot-training-flying-school-usa: HTTPSConnectionPool(host='thepilot.in', port=443): Max retries exceeded with url: /pages/pilot-training-flying-school-usa (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x1222efc50>, 'Connection to thepilot.in timed out. (connect timeout=10)'))
+2025-11-17 09:43:07,043 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/pages/pilot-training-flying-school-canada
+2025-11-17 09:43:27,052 - src.data.website_scraper - ERROR - Error processing page https://thepilot.in/pages/pilot-training-flying-school-canada: HTTPSConnectionPool(host='thepilot.in', port=443): Max retries exceeded with url: /pages/pilot-training-flying-school-canada (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x1222efd90>, 'Connection to thepilot.in timed out. (connect timeout=10)'))
+2025-11-17 09:43:27,053 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/pages/pilot-training-flying-school-New-zealand
+2025-11-17 09:43:30,474 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/pages/pilot-training-flying-school-india
+2025-11-17 09:43:44,935 - src.data.website_scraper - ERROR - Error processing page https://thepilot.in/pages/pilot-training-flying-school-india: HTTPSConnectionPool(host='thepilot.in', port=443): Read timed out.
+2025-11-17 09:43:44,935 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/pages/pilot-training-flying-school-southafrica
+2025-11-17 09:43:44,943 - src.data.website_scraper - ERROR - Error processing page https://thepilot.in/pages/pilot-training-flying-school-southafrica: HTTPSConnectionPool(host='thepilot.in', port=443): Max retries exceeded with url: /pages/pilot-training-flying-school-southafrica (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1222ef110>: Failed to resolve 'thepilot.in' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-11-17 09:43:44,944 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/pages/pilot-training-flying-school-australia
+2025-11-17 09:43:44,946 - src.data.website_scraper - ERROR - Error processing page https://thepilot.in/pages/pilot-training-flying-school-australia: HTTPSConnectionPool(host='thepilot.in', port=443): Max retries exceeded with url: /pages/pilot-training-flying-school-australia (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1222ef890>: Failed to resolve 'thepilot.in' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-11-17 09:43:44,946 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/pages/pilot-training-flying-school-sri-lanka
+2025-11-17 09:43:44,948 - src.data.website_scraper - ERROR - Error processing page https://thepilot.in/pages/pilot-training-flying-school-sri-lanka: HTTPSConnectionPool(host='thepilot.in', port=443): Max retries exceeded with url: /pages/pilot-training-flying-school-sri-lanka (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1264a0690>: Failed to resolve 'thepilot.in' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-11-17 09:43:44,948 - src.data.website_scraper - INFO - Finished scraping 10 pages
+2025-11-17 09:43:45,687 - src.vector.chroma_store - INFO - Added 3 documents to ChromaDB
+2025-11-17 09:45:34,764 - src.vector.chroma_store - INFO - ChromaDB initialized at ./data/chromadb
+2025-11-17 09:45:34,764 - src.llm.gemini_client - INFO - Gemini client initialized
+2025-11-17 09:47:49,603 - src.vector.chroma_store - INFO - ChromaDB initialized at ./data/chromadb
+2025-11-17 09:47:49,603 - src.llm.gemini_client - INFO - Gemini client initialized
+2025-11-17 09:47:58,892 - src.data.website_scraper - INFO - Scraping URL: thepilot.in
+2025-11-17 09:47:58,895 - src.data.website_scraper - ERROR - Error processing page thepilot.in: Invalid URL 'thepilot.in': No scheme supplied. Perhaps you meant https://thepilot.in?
+2025-11-17 09:47:58,896 - src.data.website_scraper - INFO - Finished scraping 1 pages
+2025-11-17 09:48:07,331 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in
+2025-11-17 09:48:08,839 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/
+2025-11-17 09:48:09,520 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in#Pilot-Training
+2025-11-17 09:48:10,050 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/pages/pilot-training-flying-school-usa
+2025-11-17 09:48:11,109 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/pages/pilot-training-flying-school-canada
+2025-11-17 09:48:12,117 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/pages/pilot-training-flying-school-New-zealand
+2025-11-17 09:48:13,629 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/pages/pilot-training-flying-school-india
+2025-11-17 09:48:15,031 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/pages/pilot-training-flying-school-southafrica
+2025-11-17 09:48:16,049 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/pages/pilot-training-flying-school-australia
+2025-11-17 09:48:17,216 - src.data.website_scraper - INFO - Scraping URL: https://thepilot.in/pages/pilot-training-flying-school-sri-lanka
+2025-11-17 09:48:17,934 - src.data.website_scraper - INFO - Finished scraping 10 pages
+2025-11-17 09:48:18,450 - src.vector.chroma_store - INFO - Added 13 documents to ChromaDB
+2025-11-17 09:50:31,077 - src.data.whatsapp_importer - INFO - Importing WhatsApp chat from /Users/uzam/Downloads/WhatsApp Chat with Yash Shukla/WhatsApp Chat with Yash Shukla.txt
+2025-11-17 09:50:31,108 - src.data.whatsapp_importer - INFO - Imported 217 messages from WhatsApp chat
+2025-11-17 09:50:36,555 - src.vector.chroma_store - INFO - Added 217 documents to ChromaDB
